@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-11-01
 ---
 
 # Morning digest
@@ -77,3 +78,22 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+| # | Issue | URL |
+|---|-------|-----|
+| 1 | Run log reader | [#1](https://github.com/jczapiewski/mega-s01e04-rig/issues/1) |
+| 2 | Digest page | [#2](https://github.com/jczapiewski/mega-s01e04-rig/issues/2) |
+| 3 | Digest JSON | [#3](https://github.com/jczapiewski/mega-s01e04-rig/issues/3) |
+| 4 | Board link | [#4](https://github.com/jczapiewski/mega-s01e04-rig/issues/4) |
+| 5 | Route tests | [#5](https://github.com/jczapiewski/mega-s01e04-rig/issues/5) |
+| 6 | Preview for review | [#6](https://github.com/jczapiewski/mega-s01e04-rig/issues/6) |
+| 7 | Review follow-up | [#7](https://github.com/jczapiewski/mega-s01e04-rig/issues/7) |
+| 8 | Preview cleanup | [#8](https://github.com/jczapiewski/mega-s01e04-rig/issues/8) |
+
+## Review and cleanup
+
+The reviewed page was regenerated without the lane marker and uploaded over the original
+preview URL on 2026-11-01. The public HTTPS response returned 200 and matched the clean export
+byte for byte; the prior marker is absent.
